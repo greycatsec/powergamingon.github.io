@@ -50,6 +50,16 @@ padding: 0.5rem 0 0.5rem 0;
 font-size: 18px;
 }
 
+/* Links inside the navbar */
+.nav a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /* The dropdown container */
 .dropdown {
   float: left;
@@ -69,7 +79,7 @@ font-size: 18px;
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.nav a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -120,7 +130,7 @@ font-size: 18px;
 }
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+.nav a:hover, .dropdown:hover .dropbtn {
   background-color: red;
 }
 
